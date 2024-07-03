@@ -1,9 +1,9 @@
 import React from "react";
-import ParentComp from "./components/ParentComp";
+import Batman from "./components/Batman";
 
 function App() {
   return (
-    <ParentComp />
+    <Batman />
   );
 }
 

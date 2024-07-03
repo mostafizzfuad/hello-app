@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import RegularComp from './RegularComp';
-import PureComp from './PureComp';
+import ChildComp from './ChildComp';
 
 export default class ParentComp extends Component {
     constructor(props) {
@@ -24,8 +23,7 @@ export default class ParentComp extends Component {
         return (
             <div>
                 <h1>Parent Component</h1>
-                {/* <RegularComp number={this.state.number} /> */}
-                <PureComp number={this.state.number} />
+                <ChildComp number={this.state.number} />
             </div>
         )
     }
