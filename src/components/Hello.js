@@ -1,17 +1,11 @@
 import React from 'react'
+import styles from "./hello.module.css"
 
 const Hello = () => {
-    const isRaining = true;
-
-    const helloStyle = {
-        color: isRaining ? 'crimson' : 'blue',
-        fontSize: "4.5rem",
-        backgroundColor: "aqua"
-    }
-
     return (
         <div>
-            <h1 className='heading' style={helloStyle}>Hello React !!</h1>
+            <h1 className={styles.heading}>Hello React !!</h1>
+            <h3 className={styles.small}>Hello, Mostafizur !!</h3>
         </div>
     )
 }

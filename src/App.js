@@ -1,9 +1,9 @@
-import Hello from "./components/Hello";
+import LifecycleUpdating from "./components/LifecycleUpdating";
 
 function App() {
   return (
     <div>
-      <Hello />
+      <LifecycleUpdating />
     </div>
   );
 }
