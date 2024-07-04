@@ -1,18 +1,10 @@
 import React from "react";
-import Comp1 from "./components/Comp1";
-import { UserProvider } from "./context/userContext";
+import Player from "./hookcomponents/Player";
 
 function App() {
-  const user = {
-    name: "Mostafizur",
-    age: 26,
-  }
-
   return (
     <div>
-      <UserProvider value={user}>
-        <Comp1 />
-      </UserProvider>
+      <Player />
     </div>
   );
 }
