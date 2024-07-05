@@ -1,10 +1,9 @@
-import React from "react";
-import Player from "./hookcomponents/Player";
+import Users from "./components/Users";
 
 function App() {
   return (
     <div>
-      <Player />
+      <Users />
     </div>
   );
 }
